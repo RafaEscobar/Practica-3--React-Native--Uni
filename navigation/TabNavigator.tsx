@@ -26,6 +26,7 @@ export const TabNavigator = () => {
         component={ ProyectsScreen } 
         options={{
           tabBarLabel: "Proyectos",
+          // Al poner el -headerShown: false- ocultamos el titulo de la screen en cuestion
           // headerShown: false,
           
         }} 
